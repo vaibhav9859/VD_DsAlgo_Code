@@ -1,2 +1,2 @@
 # VD_DsAlgo_Code
-LeetCode, GFG, etc solutions
+LeetCode, GFG, Hackerrank etc solutions
