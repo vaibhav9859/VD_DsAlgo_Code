@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+//Creating a template
+
 template <typename T>
 class TreeNode{
 public:    
