@@ -22,7 +22,10 @@ public:
 
 void printNodes(BinaryTreeNode<int>* root){
     if(!root) return;
-    cout<<root->data<<" ";
+    cout<<root->data<<": ";
+    if(root->left) cout<<"L"<<root->left->data;
+    if(root->right) cout<<"R"<<root->right->data;
+    cout<<endl;
     printNodes(root->left);
     printNodes(root->right);
 }
